@@ -1,0 +1,28 @@
+{
+  "name": "my-firebase",
+  "version": "1.0.0",
+  "description": "## Accept the Genkit CLI terms Open the IDX terminal and run the `genkit` command. This will show a prompt for the terms and conditions for Genkit. Hit enter to accept.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/index.js",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "genkit": "^0.5.4",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@genkit-ai/ai": "^0.5.4",
+    "@genkit-ai/core": "^0.5.4",
+    "@genkit-ai/dotprompt": "^0.5.4",
+    "@genkit-ai/flow": "^0.5.4",
+    "@genkit-ai/googleai": "^0.5.4",
+    "express": "^4.19.2",
+    "zod": "^3.23.8"
+  }
+}
